@@ -14,8 +14,7 @@ all:
 	mv clion-2019.2.5/* AppDir/opt/application
 
 	chmod +x AppDir/AppRun
-	export ARCH=x86_64 && appimagetool AppDir $(OUTPUT)
-
+	export ARCH=x86_64 && bin/appimagetool.AppImage AppDir $(OUTPUT)
 	chmod +x $(OUTPUT)
 
 	rm -rf clion-2019.2.5
