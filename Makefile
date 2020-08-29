@@ -11,7 +11,7 @@ all:
 	rm -rf AppDir/opt
 
 	mkdir --parents AppDir/opt/application
-	mv clion-2019.2.5/* AppDir/opt/application
+	mv clion-*/* AppDir/opt/application
 
 	chmod +x AppDir/AppRun
 	export ARCH=x86_64 && bin/appimagetool.AppImage AppDir $(OUTPUT)
