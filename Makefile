@@ -1,4 +1,4 @@
-SOURCE="https://download.jetbrains.com/cpp/CLion-2019.2.5.tar.gz"
+SOURCE="https://download-cf.jetbrains.com/cpp/CLion-2020.2.1.tar.gz"
 DESTINATION="build.tar.gz"
 OUTPUT="CLion.AppImage"
 
